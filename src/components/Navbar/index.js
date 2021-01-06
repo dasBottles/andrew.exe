@@ -6,7 +6,7 @@ const Navigation = () => {
     return (
         <>
             <Navbar bg="dark" variant="dark">
-                <Navbar.Brand href="home">andrew.exe</Navbar.Brand>
+                <Navbar.Brand href="/">andrew.exe</Navbar.Brand>
                 <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="projects">Projects</Nav.Link>
