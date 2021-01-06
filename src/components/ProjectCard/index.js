@@ -14,8 +14,8 @@ const ProjectCard = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Body>
-                    <Card.Link href={repoSrc}>Github Repo</Card.Link>
-                    <Card.Link href={demoSrc}>Live Demo</Card.Link>
+                    <Card.Link href={repoSrc} target='_blank'>Github Repo</Card.Link>
+                    <Card.Link href={demoSrc} target='_blank'>Live Demo</Card.Link>
                 </Card.Body>
             </Card> 
         </>
