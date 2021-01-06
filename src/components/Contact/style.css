@@ -1,0 +1,15 @@
+.socialLinks {
+    text-decoration: none !important; 
+    font-size: xx-large;
+    position: absolute;
+    margin-left: 24%;
+    margin-right: 24%;
+    bottom: 0px;
+    width: 50%;
+    height: 5%
+
+}
+
+a {
+    text-decoration: none;
+}
