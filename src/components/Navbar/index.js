@@ -12,6 +12,15 @@ const Navigation = () => {
                     <Nav.Link href="projects">Projects</Nav.Link>
                     <Nav.Link href="contact">Contact</Nav.Link>
                 </Nav>
+                <Nav className="justify-content-center">
+                <Nav.Item className='mr-2 ml-2'>
+                    <a href='https://github.com/dasBottles' className='fab fa-github' target='_blank'/>
+                </Nav.Item>
+                <Nav.Item className='mr-2 ml-2'>
+                    <a href='https://www.linkedin.com/in/andrew-rattanasack-4a1a6718b/' className="fab fa-linkedin" target='_blank'/>
+                </Nav.Item>
+            </Nav>
+
             </Navbar>
     </>
     )

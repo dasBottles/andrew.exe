@@ -14,15 +14,12 @@ import './style.css'
 
 const Contact = () => {
     return (
-        <div className='socialLinks'>
-            <Nav className="justify-content-center">
-                <Nav.Item className='mr-2 ml-2'>
-                    <a href='https://github.com/dasBottles' className='fab fa-github' target='_blank'/>
-                </Nav.Item>
-                <Nav.Item className='mr-2 ml-2'>
-                    <a href='https://www.linkedin.com/in/andrew-rattanasack-4a1a6718b/' className="fab fa-linkedin" target='_blank'/>
-                </Nav.Item>
-            </Nav>
+        <div className='centered'>
+            <div className='socialLinks'>
+                <a href='https://github.com/dasBottles' className='fab fa-github' target='_blank'/>
+                <a href='https://www.linkedin.com/in/andrew-rattanasack-4a1a6718b/' className="fab fa-linkedin" target='_blank'/>
+            </div>
+            
         </div>
     )
 }
