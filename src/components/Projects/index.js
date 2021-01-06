@@ -11,8 +11,7 @@ const App = () => {
     return (
       <div className='justify-content-center centered' >
         <Wrapper>
-          <h1 className="title">Project List</h1>
-          <CardDeck >
+          <CardDeck>
               {projects.map(project => 
               <ProjectCard
                   key={project.title}

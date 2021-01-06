@@ -5,8 +5,8 @@ const ProjectCard = (props) => {
     const {title, description, imgSrc, repoSrc, demoSrc} = props;
     return ( 
         <> 
-            <Card style={{ width: '18rem'}}>
-                <Card.Img variant="top" src={imgSrc} />
+            <Card bg='light' style={{ width: '18rem', fontSize: '1.5rem'}}>
+                <Card.Img variant="top" src={imgSrc} rounded />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>
