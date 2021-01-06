@@ -2,7 +2,7 @@
 
 
 ### Technologies Used
-HTML
-CSS
-React
-bootstrap/react-bootstrap
+- HTML
+- CSS
+- React
+- bootstrap/react-bootstrap
